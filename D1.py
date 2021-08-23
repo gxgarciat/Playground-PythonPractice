@@ -4,7 +4,7 @@
 # Combine the name of their city and pet and show them their band name
 # Make sure the input cursor shows on a new line, see the example at:
 
-print("**Welcome to the Band name Generator program**")
+print("**Welcome to the Band Name Generator program**")
 
 # Input - Name of the city
 print("What is the name of the city you grew up in: ")
@@ -18,7 +18,6 @@ petName = input()
 cityName, petName = petName, cityName
 
 # Showing results
-print("The name of the city is:", cityName)
-print("The name of the pet is: ", petName)
+print("The name of the band could be: " + cityName + " " + petName)
 print()
 print("**Thank you for using this app.**")
