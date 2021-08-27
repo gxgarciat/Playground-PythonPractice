@@ -27,20 +27,40 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
+print("")
+print("***********************************")
+print("            Let's start")
+print("***********************************")
+print("")
+
+
 # Operation block
-initialDirection = input("Do you want to go left or right \n")
+initialDirection = input("You are in front of a road. \nDo you want to go left or right? \n")
 if initialDirection == "Right" or initialDirection == "right" :
-    print("Game Over")
+
+    print("***********************************")
+    print("            Game Over")
+    print("***********************************")
+
 else:
-    meanTransport = input("Do you want to go swim or wait \n")
+    print("")
+    meanTransport = input("You just reached a lake. \nDo you want to go swim or wait? \n")
     if meanTransport == "Swim" or meanTransport == "swim" :
-        print("Game Over")
+        print("***********************************")
+        print("            Game Over")
+        print("***********************************")
     else:
-        colorDoor = input("Choose between the blue, red or the yellow door \n")
+        print("")
+        colorDoor = input("In front of you, there are three doors. \nChoose between the blue, red or the yellow door \n")
         if colorDoor == "blue" or colorDoor == "red":
-            print("Game Over")
+            print("***********************************")
+            print("            Game Over")
+            print("***********************************")
         else:
-            print("You win!")
+            print("")
+            print("***********************************")
+            print("            You win")
+            print("***********************************")
 
 
 # Output block
