@@ -51,13 +51,16 @@ else:
 
 # Operation block
 computerRound = random.randint(0,2)
-print("Computer chose: \n")
+print("Computer chose:")
 
 if computerRound == 0:
+    print("Rock")
     print(rock)
 elif computerRound == 1:
+    print("Paper")
     print(paper)
 else:
+    print("Scissors")
     print(scissors)
 
 # Both are equal
