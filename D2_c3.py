@@ -5,14 +5,17 @@
 
 # Variables block
 
+
 # Input block
 print("Welcome to the tip calculator")
 totalBill = float(input("What was the total bill? \n$ "))
 tipPercentage = float(input("What percentage tip would you like to give? 10 12 or 15? \n"))
 totalPeople = int(input("How many people to split the bill? \n"))
 
+
 # Operations block
 billSplit = round((totalBill * (1 + tipPercentage/100)) / totalPeople,2)
+
 
 # Output block
 print(f"Each person should pay: ${billSplit}")
