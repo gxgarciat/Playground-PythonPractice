@@ -12,6 +12,7 @@ pizzaSize = input("What size of pizza do you want? S, M L \n")
 pepperoniOption = input("Do you want pepperoni? Y, N \n")
 extraCheese = input("Do you want extra cheese? Y, N \n")
 
+
 # Operations block
 smallP = 15
 mediumP = 20
@@ -33,6 +34,7 @@ if extraCheese == "Y":
     totalBill = totalBill + 1
 
 totalBill = round(totalBill,2)
+
 
 # Output block
 print("\n****************************************")
