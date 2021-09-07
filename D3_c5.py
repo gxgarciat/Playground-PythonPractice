@@ -13,6 +13,7 @@ secondLetter = 0
 thirdLetter = 0
 fourthLetter = 0
 
+
 # Input block
 
 print("Welcome to the compatibility love test!")
@@ -21,6 +22,7 @@ loverTwo = input("What is their name? \n")
 
 loverOne = loverOne.lower()
 loverTwo = loverTwo.lower()
+
 
 # Operations block
 firstLetter = loverOne.count("t") + loverTwo.count("t")
@@ -45,6 +47,7 @@ elif 10 > score or score > 90:
     finalMessage = ", you go together like coke and mentos."
 else:
     finalMessage = "."
+
 
 # Output block
 print("\n****************************************")
