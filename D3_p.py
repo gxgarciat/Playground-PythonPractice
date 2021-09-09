@@ -2,6 +2,7 @@
 # For example, if the input is 35, the output should be 3 + 5 = 8
 
 # Input Block
+
 print('''
 
 *******************************************************************************

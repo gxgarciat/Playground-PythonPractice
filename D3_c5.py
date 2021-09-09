@@ -15,14 +15,12 @@ fourthLetter = 0
 
 
 # Input block
-
 print("Welcome to the compatibility love test!")
 loverOne = input("What is your name? \n")
 loverTwo = input("What is their name? \n")
 
 loverOne = loverOne.lower()
 loverTwo = loverTwo.lower()
-
 
 # Operations block
 firstLetter = loverOne.count("t") + loverTwo.count("t")
