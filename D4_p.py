@@ -13,6 +13,7 @@ rock = '''
 ---.__(___)
 '''
 
+
 paper = '''
     _______
 ---'   ____)____
@@ -21,6 +22,7 @@ paper = '''
          _______)
 ---.__________)
 '''
+
 
 scissors = '''
     _______
@@ -37,7 +39,7 @@ print("Welcome to Rock, Paper, Scissors")
 
 print("")
 print("***********************************")
-print("            Let's start")
+print("            Let's start  ")
 print("***********************************")
 print("")
 
