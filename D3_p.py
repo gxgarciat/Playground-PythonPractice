@@ -4,7 +4,6 @@
 # Input Block
 
 print('''
-
 *******************************************************************************
 *******************************************************************************
           |                   |                  |                     |
@@ -37,7 +36,6 @@ print("            Let's start")
 print("***********************************")
 print("")
 
-
 # Operation block
 initialDirection = input("You are in front of a road. \nDo you want to go left or right? \n")
 if initialDirection == "Right" or initialDirection == "right" :
@@ -45,7 +43,6 @@ if initialDirection == "Right" or initialDirection == "right" :
     print("***********************************")
     print("            Game Over")
     print("***********************************")
-
 else:
     print("")
     meanTransport = input("You just reached a lake. \nDo you want to go swim or wait? \n")
