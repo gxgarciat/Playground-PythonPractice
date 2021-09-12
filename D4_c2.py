@@ -4,14 +4,17 @@
 import random
 winnerBill = 0
 
+
 # Input block
 name_string = input("Give me everybody's names, separated by a comma. \n")
 names = name_string.split(", ")
+
 
 # Operations block
 numberPart = len(names)
 
 winnerBill = random.randint(0,numberPart-1)
+
 
 # Output block
 print("\n**************************************************")
