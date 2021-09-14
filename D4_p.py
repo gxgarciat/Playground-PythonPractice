@@ -36,7 +36,6 @@ scissors = '''
 # Input Block
 
 print("Welcome to Rock, Paper, Scissors")
-
 print("")
 print("***********************************")
 print("            Let's start  ")
@@ -101,6 +100,5 @@ elif computerRound == 1 and userRound == 2:
     print("***********************************")
     print("            You win")
     print("***********************************")
-
 
 # Output block
