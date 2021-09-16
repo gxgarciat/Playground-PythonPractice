@@ -14,13 +14,13 @@ for n in range(0, len(student_heights)):
   student_heights[n] = int(student_heights[n])
 
 # Operations block
+
 # By using defined functions
 # totalSum = sum(student_heights)
 # totalPopulation = len(student_heights)
 # averageHeight = round(totalSum/totalPopulation)
 
 # By using FOR loop
-
 #print(student_heights,type(student_heights))
 for students in student_heights:
   totalSum = totalSum + students
