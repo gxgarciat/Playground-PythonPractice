@@ -5,12 +5,10 @@ import random
 coinTossed = 0
 
 # Input block
-
 print("Welcome to 'Heads' or 'Tails'")
 print("Let's roll the dice!")
 
 # Operations block
-
 coinTossed = random.randint(0,1)
 if coinTossed == 0:
     message = "Tails"
