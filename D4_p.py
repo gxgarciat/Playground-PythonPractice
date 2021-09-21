@@ -4,7 +4,9 @@
 import random
 computerRound = 0
 
+
 rock = '''
+
     _______
 ---'   ____)
       (_____)
@@ -32,6 +34,7 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+
 
 # Input Block
 
