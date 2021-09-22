@@ -25,7 +25,6 @@ for students in student_heights:
   totalSum = totalSum + students
   i = i + 1
 
-
 averageHeight = round(totalSum/i)
 
 # Output block
