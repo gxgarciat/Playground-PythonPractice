@@ -4,7 +4,6 @@
 import random
 computerRound = 0
 
-
 rock = '''
 
     _______
