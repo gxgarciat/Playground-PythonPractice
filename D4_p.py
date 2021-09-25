@@ -78,7 +78,6 @@ elif computerRound == 2 and userRound == 0:
     print("            You win")
     print("***********************************")
 
-
 # Paper wins against rock
 if computerRound == 1 and userRound == 0:
     print("***********************************")
