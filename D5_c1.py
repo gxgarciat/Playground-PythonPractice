@@ -2,7 +2,6 @@
 # student_heights = [180, 124, 165, 173, 189, 169, 146]
 # The average height can be calculated by adding all the heights together and dividing by the total number of heights.
 
-
 totalSum = 0
 totalPopulation = 0
 averageHeight = 0
